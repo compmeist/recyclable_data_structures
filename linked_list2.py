@@ -31,12 +31,12 @@ class rcyc_linked_list: # first element has no data
         	cnode.next.next = None 
 
 	def display(self):
-		elems = []
+		ary = []
 		cnode = self.head
-		while cnode.next != None:
+		while (cnode.next != None):
 			cnode = cnode.next
-			elems.append(cnode.data)
-		print elems
+			ary.append(cnode.data)
+		print ary
 
 my_list = rcyc_linked_list(None)
 
