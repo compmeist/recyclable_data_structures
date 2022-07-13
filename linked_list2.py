@@ -8,7 +8,7 @@ class node:
 	def __init__(self, data=None):
     	  self.data = data
     	  self.next = None
-    	  self.nextMemNode = None
+    	  self.nextMemNode = None  # (generally ignored, but stores legacy link)
 
 class rcyc_linked_list: # first element has no data
 	def __init__(self,ll_head_to_recycle=None):
